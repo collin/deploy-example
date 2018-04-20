@@ -29,5 +29,9 @@ describe('User routes', () => {
           expect(res.body[0].email).to.be.equal(codysEmail)
         })
     })
+
+    it('breaks', () => {
+      expect(true).to.be.equal(false)
+    })
   }) // end describe('/api/users')
 }) // end describe('User routes')
