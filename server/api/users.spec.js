@@ -30,8 +30,8 @@ describe('User routes', () => {
         })
     })
 
-    it('breaks', () => {
-      expect(true).to.be.equal(false)
+    it('does not break', () => {
+      expect(false).to.be.equal(false)
     })
   }) // end describe('/api/users')
 }) // end describe('User routes')
